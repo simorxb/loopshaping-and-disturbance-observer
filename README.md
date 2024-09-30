@@ -91,15 +91,14 @@ obs_d = c2d(ss(A_e, B_e, C_e, D_e), T_s)
 ### Simulation
 The simulation includes the following settings to make the scenario more realistic:
 
-White noise is added to the measured controlled variable.
+- White noise is added to the measured controlled variable.
 - The disturbance $F_d$ steps to 20 N after 10 seconds.
-- The control input is saturated at ± 50N.
 
 ### Simulation Results
 The results show that the extended state observer effectively estimates the disturbance $F_d$ and compensates for it, ensuring zero steady-state error in response to a step input.
 
-### Author
+## Author
 This project is developed by Simone Bertoni. Learn more about my work on my personal website - [Simone Bertoni - Control Lab](https://simonebertonilab.com/).
 
-### Contact
+## Contact
 For further communication, connect with me on [LinkedIn](https://www.linkedin.com/in/simone-bertoni-control-eng/).
